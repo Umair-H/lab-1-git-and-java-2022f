@@ -29,17 +29,12 @@ public class IntroLab {
         } else {
             message_to_print += "I like dogs more than cats! ";
         }
-
         return message_to_print + message;
     }
-
-    /* TODO: In the space below, write your our method.
-     *       The method should be named with your utorID and should call
-     *       printLabMessage with some parameters.
-     *
-     * As a reference, we've provided the sample method exampleStudent.
-     * Make sure you document your method properly!
-     */
+    public static String hussa906() {
+        return printLabMessage("Hi", "Umair", false,
+                "CSC207 is cool");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -52,17 +47,10 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
-
-        /* TODO: Add a call to the method you wrote in this main method,
-         *        and print the results of it.
-         *
-         * As a reference, we've provided a sample call to exampleStudent
-         * above. Afterwards: run this file to see the output!
-         */
+        System.out.println(hussa906());
 
 
     }
 
-    // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
 
 }
